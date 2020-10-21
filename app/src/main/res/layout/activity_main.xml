@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSelectedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center"
+        android:columnCount="3">
+
+        <Button
+            android:text="@string/btt_0"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_2"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_2"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_0"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_2"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_0"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/btt_1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_column="1"
+            android:text="@string/btt_0"
+            android:onClick="onClick"/>
+
+    </GridLayout>
+
+</LinearLayout>
