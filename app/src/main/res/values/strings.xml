@@ -18,4 +18,8 @@
     <string name="btt_8">8</string>
     <string name="btt_9">9</string>
     <string name="btt_dot">.</string>
+    <string name="mi_advanced_calc_mode">Avançada</string>
+    <string name="mi_normal_calc_mode">Normal</string>
+    <string name="btt_pot">^</string>
+    <string name="btt_sqr">√</string>
 </resources>

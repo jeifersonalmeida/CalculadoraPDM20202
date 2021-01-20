@@ -50,6 +50,23 @@
             android:onClick="calc"/>
 
         <Button
+            android:id="@+id/bttPot"
+            android:text="@string/btt_pot"
+            android:onClick="addOperation"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/bttSqr"
+            android:text="@string/btt_sqr"
+            android:onClick="addOperation"
+            android:enabled="false" />
+
+        <Button
+            android:layout_column="2"
+            android:text="@string/btt_dot"
+            android:onClick="addDot"/>
+
+        <Button
             android:text="@string/btt_7"
             android:onClick="addNumber"/>
 
@@ -89,11 +106,6 @@
             android:layout_column="1"
             android:text="@string/btt_0"
             android:onClick="addNumber"/>
-
-        <Button
-            android:layout_column="2"
-            android:text="@string/btt_dot"
-            android:onClick="addDot"/>
 
     </GridLayout>
 
