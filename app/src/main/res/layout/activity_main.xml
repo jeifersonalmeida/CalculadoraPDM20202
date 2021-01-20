@@ -9,10 +9,9 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvSelectedButton"
+        android:id="@+id/tvCalcContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="N/A"
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,45 +26,74 @@
         android:columnCount="3">
 
         <Button
-            android:text="@string/btt_0"
-            android:onClick="onClick"/>
+            android:text="@string/btt_sum"
+            android:onClick="addOperation"/>
+
+        <Button
+            android:text="@string/btt_sub"
+            android:onClick="addOperation"/>
+
+        <Button
+            android:text="@string/btt_clear"
+            android:onClick="clear"/>
+
+        <Button
+            android:text="@string/btt_mult"
+            android:onClick="addOperation"/>
+
+        <Button
+            android:text="@string/btt_div"
+            android:onClick="addOperation"/>
+
+        <Button
+            android:text="@string/btt_calc"
+            android:onClick="calc"/>
+
+        <Button
+            android:text="@string/btt_7"
+            android:onClick="addNumber"/>
+
+        <Button
+            android:text="@string/btt_8"
+            android:onClick="addNumber"/>
+
+        <Button
+            android:text="@string/btt_9"
+            android:onClick="addNumber"/>
+
+        <Button
+            android:text="@string/btt_4"
+            android:onClick="addNumber"/>
+
+        <Button
+            android:text="@string/btt_5"
+            android:onClick="addNumber"/>
+
+        <Button
+            android:text="@string/btt_6"
+            android:onClick="addNumber"/>
 
         <Button
             android:text="@string/btt_1"
-            android:onClick="onClick"/>
+            android:onClick="addNumber"/>
 
         <Button
             android:text="@string/btt_2"
-            android:onClick="onClick"/>
+            android:onClick="addNumber"/>
 
         <Button
-            android:text="@string/btt_1"
-            android:onClick="onClick"/>
-
-        <Button
-            android:text="@string/btt_2"
-            android:onClick="onClick"/>
-
-        <Button
-            android:text="@string/btt_0"
-            android:onClick="onClick"/>
-
-        <Button
-            android:text="@string/btt_2"
-            android:onClick="onClick"/>
-
-        <Button
-            android:text="@string/btt_0"
-            android:onClick="onClick"/>
-
-        <Button
-            android:text="@string/btt_1"
-            android:onClick="onClick"/>
+            android:text="@string/btt_3"
+            android:onClick="addNumber"/>
 
         <Button
             android:layout_column="1"
             android:text="@string/btt_0"
-            android:onClick="onClick"/>
+            android:onClick="addNumber"/>
+
+        <Button
+            android:layout_column="2"
+            android:text="@string/btt_dot"
+            android:onClick="addDot"/>
 
     </GridLayout>
 

@@ -4,4 +4,18 @@
     <string name="btt_0">0</string>
     <string name="btt_1">1</string>
     <string name="btt_2">2</string>
+    <string name="btt_sum">+</string>
+    <string name="btt_sub">-</string>
+    <string name="btt_mult">*</string>
+    <string name="btt_clear">C</string>
+    <string name="btt_div">/</string>
+    <string name="btt_calc">=</string>
+    <string name="btt_3">3</string>
+    <string name="btt_4">4</string>
+    <string name="btt_5">5</string>
+    <string name="btt_6">6</string>
+    <string name="btt_7">7</string>
+    <string name="btt_8">8</string>
+    <string name="btt_9">9</string>
+    <string name="btt_dot">.</string>
 </resources>
